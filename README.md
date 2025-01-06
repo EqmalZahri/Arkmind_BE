@@ -35,7 +35,7 @@ This is the backend for the Items Management API, providing CRUD operations for 
 
 4. Manually set up the database:
    - Create a database using your preferred database management tool (eg:- MySQL Workbench).
-   - Import the provided SQL file `items_db_items.sql` (located in the project directory / backup_db / items_db_items.sql) into your database.
+   - Import the provided SQL file `items_db_items.sql` (located in the `project directory/backup_db/items_db_items.sql`) into your database.
 
 5. Start the server:
    ```bash
@@ -56,6 +56,13 @@ This is the backend for the Items Management API, providing CRUD operations for 
 | POST   | `/api/items`           | Create a new item     |
 | PUT    | `/api/items/:id`       | Update an item        |
 | DELETE | `/api/items/:id`       | Delete an item        |
+
+
+## Features
+- Create, Read, Update, Delete (CRUD) API Endpoints operations for items
+- database using MySQL
+- Validate incoming requests using Zod
+- Modular & scalable project structure
 
 ## Additional Notes
 
